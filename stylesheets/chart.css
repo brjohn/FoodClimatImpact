@@ -1,0 +1,49 @@
+
+h1 {
+    text-align: center;
+    height: 24px;
+    margin-top: 24px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+.chart-container {
+    display: block;
+    position: relative;
+    /* max-height: 90vh;
+    max-width: 90vw; */
+    border: blue solid 6px;
+}
+
+.button {
+    border:  aquamarine solid 2px;
+    cursor: pointer;
+}
+
+.below {
+    margin-top: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* height: 700px; */
+    border: aquamarine solid 6px;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+#beef,
+#poultry,
+#wheat {
+    text-indent: 18px;
+}
+
+#doughnut {
+    margin-top: 40px;
+    display: block;
+    max-height: 50%;
+    max-width: 50%;
+}

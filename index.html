@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="src/bundle.js"></script>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+        integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stylesheets/chart.css">
+    <link rel="stylesheet" href="./stylesheets/reset.css" />
+    
+</head>
+<body>
+    <h1>Explore the Climate Impact of Food Production</h1>
+    <div class="main">
+        <div class="left">
+           <div class="button" id="protein">View the Protein Data</div> 
+           <div class="button" id="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+           </div>
+        </div>
+        
+    
+        <div class="chart-container">
+            
+            <canvas id="myChart" width="900px" height="600px"></canvas>
+            <script src="./src/bar_chart.js"></script>  
+        </div> 
+        <!-- <div></div> -->
+    </div>
+    <div class="below">
+        <div class="buttons">
+            <p>Explore more about the effects of food production by clicking on the options below:</p>
+            <div class="button" id="ghg">View Greenhouse Gas Data</div>
+            <div class="button" id="beef">View the Beef Data</div>
+            <div class="button" id="poultry">View the Poultry Data</div>
+            <div class="button" id="wheat">View the Wheat Data</div>
+            <div class="button" id="water">View the Water Data</div>
+            <div class="button" id="deforestation">View the Deforestation Data</div>
+            <div class="button" id="scroll-up">Return to the Top
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </div>
+        
+        <canvas id="doughnut" width="400px" height="400px"></canvas>
+        <script src="./src/doughnut.js"></script>
+        <div class="info"></div>
+    </div>
+    
+</body>
+</html>

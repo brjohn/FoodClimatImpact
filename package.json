@@ -1,0 +1,26 @@
+{
+  "name": "FoodClimateImpact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brjohn/FoodClimateImpact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brjohn/FoodClimateImpact/issues"
+  },
+  "homepage": "https://github.com/brjohn/FoodClimateImpact#readme",
+  "dependencies": {
+    "chart.js": "^2.9.4",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
