@@ -7,10 +7,12 @@
     <title>Document</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
     <script src="src/bundle.js"></script>
+    <script src="src/page.js"></script>
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
         integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href="./stylesheets/chart.css">
+    <link rel="stylesheet" href="./stylesheets/main.css">
     <link rel="stylesheet" href="./stylesheets/reset.css" />
     
 </head>
@@ -18,7 +20,16 @@
     <h1>Explore the Climate Impact of Food Production</h1>
     <div class="main">
         <div class="left">
-           <div class="button" id="protein">View the Protein Data</div> 
+            <div>
+                <p>What and how we eat has a tremendous impact on our environment, but how, exactly?
+                    Let's begin with two important indicators: the greenhouse gas emissions and the scarcity-weighted freshwater use 
+                    for each kilogram of food product.
+                    <div class="button" id="protein">
+                        Compare greenhouse gas emissions and water use for common sources of protein.
+                    </div>
+                </p>
+            </div>
+            
            <div class="button" id="scroll-down">
                 <i class="fas fa-chevron-down"></i>
            </div>
@@ -50,6 +61,23 @@
         <script src="./src/doughnut.js"></script>
         <div class="info"></div>
     </div>
+    <ul class="sources">The data presented in this page has been sourced from the following articles:
+        <li>Hannah Ritchie and Max Roser (2020) - "Environmental impacts of food production". Published online at
+        OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/environmental-impacts-of-food' [Online Resource]</li>
+        <li>Hannah Ritchie (2021) - "Cutting down forests: what are the drivers of deforestation?". 
+            Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/what-are-drivers-deforestation' [Online Resource]</li>
+        <li>
+            Florence Pendrill, U. Martin Persson, Javier Godar, Thomas Kastner, Daniel Moran, Sarah Schmidt, Richard Wood,
+            "Agricultural and forestry trade drives large share of tropical deforestation emissions",
+            Global Environmental Change,
+            Volume 56,
+            2019,
+            Pages 1-10,
+            ISSN 0959-3780,
+            https://doi.org/10.1016/j.gloenvcha.2019.03.002.
+            (https://www.sciencedirect.com/science/article/pii/S0959378018314365)
+        </li>
+    </ul>
     
 </body>
 </html>

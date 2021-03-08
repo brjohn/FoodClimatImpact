@@ -9,13 +9,21 @@ h1 {
     justify-content: center;
     height: 80vh;
 }
+.left {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
 .chart-container {
-    display: block;
+    display: flex;
     position: relative;
     /* max-height: 90vh;
     max-width: 90vw; */
     border: blue solid 6px;
 }
+/* #myChart {
+    
+} */
 
 .button {
     border:  aquamarine solid 2px;
@@ -47,3 +55,4 @@ h1 {
     max-height: 50%;
     max-width: 50%;
 }
+

@@ -141,3 +141,4 @@ document.getElementById('scroll-up').addEventListener('click', ()=> {
       behavior: 'smooth',
     });
 })
+

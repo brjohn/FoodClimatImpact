@@ -1,0 +1,10 @@
+.sources {
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 6px;
+}
+.sources li {
+    font-size: 10px;
+    font-weight: lighter;
+    padding: 6px;
+}
