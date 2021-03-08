@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font-family: arial;
 	vertical-align: baseline;
 	border-style: none;
+  color: #666666;
 	
 }
 /* HTML5 display-role reset for older browsers */

@@ -7,17 +7,22 @@
     <title>Document</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
     <script src="src/bundle.js"></script>
-    <script src="src/page.js"></script>
+    
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
         integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stylesheets/reset.css" />
     <link rel="stylesheet" href="./stylesheets/chart.css">
     <link rel="stylesheet" href="./stylesheets/main.css">
-    <link rel="stylesheet" href="./stylesheets/reset.css" />
+    
     
 </head>
 <body>
     <h1>Explore the Climate Impact of Food Production</h1>
+    <nav id="my-links">
+        <a target="_blank" href="https://github.com/brjohn"><i class="fab fa-github-square"></i></a>
+        <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
+    </nav>
     <div class="main">
         <div class="left">
             <div>
@@ -29,8 +34,10 @@
                     </div>
                 </p>
             </div>
+            <div class="button" id="top-ghg">GHG and Food Production</div>
+            <div class="button" id="top-water">Water Use and Food Production</div>
             
-           <div class="button" id="scroll-down">
+           <div class="button" id="scroll-down">Explore more below
                 <i class="fas fa-chevron-down"></i>
            </div>
         </div>
@@ -52,6 +59,12 @@
             <div class="button" id="wheat">View the Wheat Data</div>
             <div class="button" id="water">View the Water Data</div>
             <div class="button" id="deforestation">View the Deforestation Data</div>
+            <div id="info">How significant is food production's contribution to our total global greenhouse gas emissions? Accounting for 26% of
+            global emissions, it is indeed significant. In general, animal-based foods have a greater footprint than plant-based, as
+            demonstrated in the bar graph above. These emissions are derived from 7 stages of the supply chain: land use change,
+            farming, animal feed, processing, transportation, retail, and packaging. See how these stages contribute to the overall
+            emissions of beef, poultry, and wheat by clicking the options above. (1)
+            </div>
             <div class="button" id="scroll-up">Return to the Top
                 <i class="fas fa-chevron-up"></i>
             </div>
@@ -59,15 +72,14 @@
         
         <canvas id="doughnut" width="400px" height="400px"></canvas>
         <script src="./src/doughnut.js"></script>
-        <div class="info"></div>
+        <div></div>
     </div>
     <ul class="sources">The data presented in this page has been sourced from the following articles:
-        <li>Hannah Ritchie and Max Roser (2020) - "Environmental impacts of food production". Published online at
+        <li>(1) Hannah Ritchie and Max Roser (2020) - "Environmental impacts of food production". Published online at
         OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/environmental-impacts-of-food' [Online Resource]</li>
-        <li>Hannah Ritchie (2021) - "Cutting down forests: what are the drivers of deforestation?". 
+        <li>(2) Hannah Ritchie (2021) - "Cutting down forests: what are the drivers of deforestation?". 
             Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/what-are-drivers-deforestation' [Online Resource]</li>
-        <li>
-            Florence Pendrill, U. Martin Persson, Javier Godar, Thomas Kastner, Daniel Moran, Sarah Schmidt, Richard Wood,
+        <li>(3) Florence Pendrill, U. Martin Persson, Javier Godar, Thomas Kastner, Daniel Moran, Sarah Schmidt, Richard Wood,
             "Agricultural and forestry trade drives large share of tropical deforestation emissions",
             Global Environmental Change,
             Volume 56,

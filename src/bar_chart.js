@@ -115,7 +115,8 @@ var myChart = new Chart(ctx, {
         },
         title: {
           display: true,
-          text: "Greenhouse Gas Emissions and Scarcity-Weighted Water Use of Food Products"
+          text: "Greenhouse Gas Emissions and Scarcity-Weighted Water Use of Food Products",
+          fontSize: 16
         },
         legend: {
           position: "bottom"
