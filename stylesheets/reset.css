@@ -32,8 +32,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	display: flex;
+	flex-direction: column;
 	line-height: 1;
-	height: 100%;
+	/* height: 100%; */
 }
 
 html {
