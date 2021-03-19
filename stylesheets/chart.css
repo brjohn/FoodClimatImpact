@@ -20,11 +20,15 @@
 
 .button {
     width: fit-content;
-    border: rgba(54, 162, 235, 1) 4px;
-    background-color: rgba(54, 162, 235, 0.2);
+    border: rgba(54, 162, 235, 1) solid 1.5px;
+    background-color: rgba(54, 162, 235, 0.1);
     cursor: pointer;
     margin-top: 16px;
     padding: 4px;
+    border-radius: 3px;
+}
+.button:hover {
+    background-color: rgba(54, 162, 235, 0.2);
 }
 
 .below {
@@ -41,7 +45,7 @@
 #beef,
 #poultry,
 #wheat {
-    text-indent: 18px;
+    margin-left: 18px;
 }
 
 #doughnut {
@@ -52,3 +56,6 @@
     max-width: 50%;
 }
 
+#scroll-up {
+    border-radius: 50%;
+}

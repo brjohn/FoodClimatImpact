@@ -162,9 +162,11 @@ document.getElementById('all-foods').addEventListener('click', ()=> {
 
 document.getElementById('scroll-down').addEventListener('click', ()=> {
     
-    window.scroll({
-      top: document.body.offsetHeight,
-      behavior: 'smooth',
-    });
+    // window.scroll({
+    //   top: document.getElementById('main-top').offsetHeight,
+    //   behavior: 'smooth',
+    // });
+    document.getElementById("doughnut").scrollIntoView({ behavior: 'smooth'});
+    
   
 })
