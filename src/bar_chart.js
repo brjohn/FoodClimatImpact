@@ -154,6 +154,12 @@ document.getElementById('protein').addEventListener('click', ()=> {
     myChart.update();
 })
 
+document.getElementById('all-foods').addEventListener('click', ()=> {
+    dataset = myData
+    myChart.data = currData(dataset);
+    myChart.update();
+})
+
 document.getElementById('scroll-down').addEventListener('click', ()=> {
     
     window.scroll({

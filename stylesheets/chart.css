@@ -1,19 +1,12 @@
 
-nav {
+/* nav {
     min-width: 200px;
-    max-width: 70vw;
-}
+    max-width: 300px;
+} */
 .main {
     display: flex;
     /* justify-content: center; */
     /* height: 80vh; */
-}
-.left {
-    /* width: 300px; */
-    /* margin-left: 24px;
-    margin-top: 24px; */
-    /* display: block;
-    flex-direction: column; */
 }
 
 .chart-container {
@@ -26,9 +19,12 @@ nav {
 
 
 .button {
-    border:  aquamarine solid 2px;
+    width: fit-content;
+    border: rgba(54, 162, 235, 1) 4px;
+    background-color: rgba(54, 162, 235, 0.2);
     cursor: pointer;
     margin-top: 16px;
+    padding: 4px;
 }
 
 .below {
