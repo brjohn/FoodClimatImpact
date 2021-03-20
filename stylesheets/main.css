@@ -8,14 +8,21 @@ h1 {
     margin-bottom: 12px;
 }
 .subtitle {
+    width: fit-content;
+    align-self: center;
     text-align: center;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
     margin-bottom: 12px;
+    border-bottom: 1px solid #6666664a;
 }
 
 .sources {
+    border-top: 1px solid #6666664a;
     font-size: 12px;
     font-weight: lighter;
-    padding: 6px;
+    padding: 12px;
 }
 .sources li {
     font-size: 10px;

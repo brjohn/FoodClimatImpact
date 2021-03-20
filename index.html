@@ -67,27 +67,30 @@
     <div class="below">
         <div class="buttons">
             <p>Explore more about the effects of food production by clicking on the options below:</p>
-            <div class="button" id="ghg">View Greenhouse Gas Data</div>
-            <div class="button" id="beef">View the Beef Data</div>
-            <div class="button" id="poultry">View the Poultry Data</div>
-            <div class="button" id="wheat">View the Wheat Data</div>
-            <div class="button" id="water">View the Water Data</div>
-            <div class="button" id="deforestation">View the Deforestation Data</div>
+            <div class="button" id="ghg">Sources of Greenhouse Gas Emissions</div>
+            <div class="button" id="beef">Supply Chain GHG Emissions of Beef</div>
+            <div class="button" id="poultry">Supply Chain GHG Emissions of Poultry</div>
+            <div class="button" id="wheat">Supply Chain GHG Emissions of Wheat</div>
+            <div class="button" id="water">Sources of Global Freshwater Withdrawals</div>
+            <div class="button" id="deforestation">Agriculture-Driven Deforestation</div>
             <div id="info">How significant is food production's contribution to our total global greenhouse gas emissions? Accounting for 26% of
             global emissions, it is indeed significant. In general, animal-based foods have a greater footprint than plant-based, as
             demonstrated in the bar graph above. These emissions are derived from 7 stages of the supply chain: land use change,
             farming, animal feed, processing, transportation, retail, and packaging. See how these stages contribute to the overall
             emissions of beef, poultry, and wheat by clicking the options above. (1)
             </div>
-            <div class="button" id="scroll-up">
-                <i class="fas fa-chevron-up"></i>
+            <div  id="scroll-up">
+                <i class="fas fa-chevron-circle-up"></i>
+                <!-- <i class="fas fa-chevron-up"></i> -->
             </div>
         </div>
         
         <canvas id="doughnut" width="400px" height="400px"></canvas>
         <script src="./src/doughnut.js"></script>
+        
         <div></div>
     </div>
+    
     <footer>
         <ul class="sources">The data presented in this page has been sourced from the following articles:
         <li>(1) Hannah Ritchie and Max Roser (2020) - "Environmental impacts of food production". Published online at
