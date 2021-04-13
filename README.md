@@ -1,4 +1,4 @@
-# ![logo]() FoodClimateImpact
+# ![logo](https://github.com/brjohn/brjohn.github.io/blob/master/images/icons8-doughnut-chart-48.png) FoodClimateImpact
 
 #### Breaking down the climate impact of food production
 
